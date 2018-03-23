@@ -8,7 +8,7 @@ public class CH03_05 {
     private static final int _1MB = 1024 * 1024;
 
     /**
-     * VM参数：-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
+     * VM参数：-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+UseSerialGC
      */
     public static void testAllocation() {
         byte[] allocation1, allocation2, allocation3, allocation4;
